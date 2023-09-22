@@ -1,0 +1,26 @@
+body {
+  background-color: #f0f0f0; /* Background color */
+  background-image: url('images/background.jpg'); /* Background image */
+  background-size: cover; /* Background image size */
+  background-repeat: no-repeat; /* Background image repetition */
+  background-position: center center; /* Background image position */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Font family */
+}
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loading-text {
+  background-color: #eff26426;
+  width: 20%;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
